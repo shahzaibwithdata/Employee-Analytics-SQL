@@ -40,15 +40,12 @@ data/ → data insertion scripts
 
 queries/ → analytical SQL queries
 
+
 ## 🚀 How to Run
 1. Create database `EmployeeAnalyticsDB`
-2. Run schema scripts
-3. Insert data
-4. Execute queries from `/queries`
-
-## 📌 Tools Used
-- SQL Server
-- GitHub
+2. Run scripts in `schema/`
+3. Insert data using scripts in `data/`
+4. Execute queries from `queries/`
 
 ## 👤 Author
 Shahzaib Ali
