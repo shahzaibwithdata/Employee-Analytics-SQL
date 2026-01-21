@@ -35,7 +35,9 @@ The schema was intentionally designed to support:
 
 ## 📁 Project Structure
 schema/ → table creation
+
 data/ → data insertion scripts
+
 queries/ → analytical SQL queries
 
 ## 🚀 How to Run
