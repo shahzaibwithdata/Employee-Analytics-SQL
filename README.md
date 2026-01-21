@@ -34,3 +34,19 @@ The schema was intentionally designed to support:
 - Salary distribution and compression analysis
 
 ## 📁 Project Structure
+schema/ → table creation
+data/ → data insertion scripts
+queries/ → analytical SQL queries
+
+## 🚀 How to Run
+1. Create database `EmployeeAnalyticsDB`
+2. Run schema scripts
+3. Insert data
+4. Execute queries from `/queries`
+
+## 📌 Tools Used
+- SQL Server
+- GitHub
+
+## 👤 Author
+Shahzaib Ali
