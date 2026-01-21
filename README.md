@@ -1,5 +1,3 @@
-# Employee-Analytics-SQL
-
 # Employee Analytics & HR Insights (SQL Server)
 
 ## 📌 Project Overview
