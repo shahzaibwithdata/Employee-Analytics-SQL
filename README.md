@@ -4,7 +4,7 @@
 This project analyzes employee and department data to generate HR insights using SQL Server.  
 It focuses on salary distribution, hiring trends, and workforce structure using advanced SQL techniques.
 
-##🗂️ Database Schema
+🗂️ Database Schema
 Tables Used
 
 1. departments
@@ -27,7 +27,7 @@ hire_date
 
 The schema follows normalization principles and enforces foreign key constraints to ensure data integrity.
 
-##🛠️ SQL Skills Demonstrated
+🛠️ SQL Skills Demonstrated
 INNER JOIN & LEFT JOIN
 GROUP BY & Aggregate Functions
 Subqueries
@@ -37,12 +37,19 @@ Running totals & analytical calculations
 Business-focused problem solving
 
 ##📈 Business Questions Answered
+
 What is the complete employee profile including department and job role?
+
 How many employees work in each department?
+
 What is the average salary per department?
+
 Who are the highest-paid employees in each department?
+
 Which employees earn above their department’s average salary?
+
 How are employees ranked by salary within departments?
+
 How does salary progress as job seniority increases?
 
 ## 📁 Project Structure
