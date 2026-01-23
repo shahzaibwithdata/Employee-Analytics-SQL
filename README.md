@@ -1,10 +1,11 @@
-📊 Employee Analytics & HR Insights (SQL Server)
+Employee Analytics & HR Insights (SQL Server)
 📌 Project Overview
 
-This project analyzes employee and department data to generate HR and business insights using SQL Server.
-It focuses on salary distribution, hiring trends, and workforce structure using advanced SQL techniques.
+This project analyzes employee and department data to generate meaningful HR and business insights using SQL Server.
+It focuses on salary distribution, hiring trends, workforce structure, and compensation analysis using advanced SQL techniques.
 
-🗂️ Database Schema — Tables Used
+🗂️ Database Schema
+📁 Tables Used
 departments
 
 department_id (PK)
@@ -35,13 +36,13 @@ salary
 
 hire_date
 
-The schema follows database normalization principles and enforces foreign key constraints to ensure data integrity.
+📐 The schema follows normalization principles and enforces foreign key constraints to ensure data integrity.
 
 🛠️ SQL Skills Demonstrated
 
 INNER JOIN & LEFT JOIN
 
-GROUP BY & Aggregate Functions (COUNT, AVG, MAX)
+GROUP BY & Aggregate Functions
 
 Subqueries
 
@@ -70,24 +71,24 @@ How are employees ranked by salary within departments?
 How does salary progress as job seniority increases?
 
 📁 Project Structure
-Employee-Analytics-SQL/
-│
-├── schema/      → Table creation scripts
-├── data/        → Data insertion scripts
-└── queries/     → Analytical SQL queries
+schema/   → Table creation scripts  
+data/     → Data insertion scripts  
+queries/  → Analytical SQL queries  
 
 🚀 How to Run
 
-Create the database:
+Create database:
 
 CREATE DATABASE EmployeeAnalyticsDB;
 
 
-Run scripts inside the schema/ folder to create tables.
+Run scripts from:
 
-Insert data using scripts in the data/ folder.
+schema/ → create tables
 
-Execute analytical queries from the queries/ folder.
+data/ → insert data
+
+queries/ → execute analysis queries
 
 👤 Author
 
