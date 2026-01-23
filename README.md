@@ -1,4 +1,5 @@
 Employee Analytics & HR Insights (SQL Server)
+
 📌 Project Overview
 
 This project analyzes employee and department data to generate meaningful HR and business insights using SQL Server.
@@ -38,6 +39,7 @@ hire_date
 
 📐 The schema follows normalization principles and enforces foreign key constraints to ensure data integrity.
 
+
 🛠️ SQL Skills Demonstrated
 
 INNER JOIN & LEFT JOIN
@@ -53,6 +55,7 @@ Window Functions (ROW_NUMBER, RANK, LAG)
 Running totals & analytical calculations
 
 Business-focused problem solving
+
 
 📈 Business Questions Answered
 
@@ -70,10 +73,15 @@ How are employees ranked by salary within departments?
 
 How does salary progress as job seniority increases?
 
+
 📁 Project Structure
-schema/   → Table creation scripts  
-data/     → Data insertion scripts  
+
+schema/   → Table creation scripts
+
+data/     → Data insertion scripts
+
 queries/  → Analytical SQL queries  
+
 
 🚀 How to Run
 
@@ -89,6 +97,7 @@ schema/ → create tables
 data/ → insert data
 
 queries/ → execute analysis queries
+
 
 👤 Author
 
