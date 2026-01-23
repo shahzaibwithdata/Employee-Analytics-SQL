@@ -8,32 +8,50 @@ It focuses on salary distribution, hiring trends, and workforce structure using 
 Tables Used
 
 1. departments
+
 department_id (PK)
+
 department_name
 
 2. job_titles
+
 job_title_id (PK)
+
 job_title
+
 job_level
+
 department_id (FK)
 
 3. employees
+
 employee_id (PK)
+
 name
+
 department_id (FK)
+
 job_title_id (FK)
+
 salary
+
 hire_date
 
 The schema follows normalization principles and enforces foreign key constraints to ensure data integrity.
-
 🛠️ SQL Skills Demonstrated
+
 INNER JOIN & LEFT JOIN
+
 GROUP BY & Aggregate Functions
+
 Subqueries
+
 Common Table Expressions (CTEs)
+
 Window Functions (ROW_NUMBER, RANK, LAG)
+
 Running totals & analytical calculations
+
 Business-focused problem solving
 
 ##📈 Business Questions Answered
