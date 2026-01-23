@@ -1,19 +1,17 @@
-# Employee Analytics & HR Insights (SQL Server)
+📊 Employee Analytics & HR Insights (SQL Server)
+📌 Project Overview
 
-## 📌 Project Overview
-This project analyzes employee and department data to generate HR insights using SQL Server.  
+This project analyzes employee and department data to generate HR and business insights using SQL Server.
 It focuses on salary distribution, hiring trends, and workforce structure using advanced SQL techniques.
 
-🗂️ Database Schema
-Tables Used
-
-1. departments
+🗂️ Database Schema — Tables Used
+departments
 
 department_id (PK)
 
 department_name
 
-2. job_titles
+job_titles
 
 job_title_id (PK)
 
@@ -23,7 +21,7 @@ job_level
 
 department_id (FK)
 
-3. employees
+employees
 
 employee_id (PK)
 
@@ -37,12 +35,13 @@ salary
 
 hire_date
 
-The schema follows normalization principles and enforces foreign key constraints to ensure data integrity.
+The schema follows database normalization principles and enforces foreign key constraints to ensure data integrity.
+
 🛠️ SQL Skills Demonstrated
 
 INNER JOIN & LEFT JOIN
 
-GROUP BY & Aggregate Functions
+GROUP BY & Aggregate Functions (COUNT, AVG, MAX)
 
 Subqueries
 
@@ -54,7 +53,7 @@ Running totals & analytical calculations
 
 Business-focused problem solving
 
-##📈 Business Questions Answered
+📈 Business Questions Answered
 
 What is the complete employee profile including department and job role?
 
@@ -70,19 +69,26 @@ How are employees ranked by salary within departments?
 
 How does salary progress as job seniority increases?
 
-## 📁 Project Structure
-schema/ → table creation
+📁 Project Structure
+Employee-Analytics-SQL/
+│
+├── schema/      → Table creation scripts
+├── data/        → Data insertion scripts
+└── queries/     → Analytical SQL queries
 
-data/ → data insertion scripts
+🚀 How to Run
 
-queries/ → analytical SQL queries
+Create the database:
+
+CREATE DATABASE EmployeeAnalyticsDB;
 
 
-## 🚀 How to Run
-1. Create database `EmployeeAnalyticsDB`
-2. Run scripts in `schema/`
-3. Insert data using scripts in `data/`
-4. Execute queries from `queries/`
+Run scripts inside the schema/ folder to create tables.
 
-## 👤 Author
+Insert data using scripts in the data/ folder.
+
+Execute analytical queries from the queries/ folder.
+
+👤 Author
+
 Shahzaib Ali
