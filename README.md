@@ -4,34 +4,46 @@
 This project analyzes employee and department data to generate HR insights using SQL Server.  
 It focuses on salary distribution, hiring trends, and workforce structure using advanced SQL techniques.
 
-## 🧱 Database Schema
-Tables included:
-- departments
-- employees
+##🗂️ Database Schema
+Tables Used
 
-The schema was intentionally designed to support:
-- Window functions
-- Ranking analysis
-- Time-based insights
+1. departments
+department_id (PK)
+department_name
 
-## 🛠 SQL Skills Demonstrated
-- JOINs (INNER)
-- Common Table Expressions (CTEs)
-- Window Functions:
-  - RANK()
-  - ROW_NUMBER()
-  - LAG()
-  - Running totals
-- Date functions
-- Aggregations
-- Subqueries
+2. job_titles
+job_title_id (PK)
+job_title
+job_level
+department_id (FK)
 
-## 📊 Key Analyses
-- Top earners per department
-- Salary comparison vs department average
-- Hiring trends over time
-- Cumulative workforce growth
-- Salary distribution and compression analysis
+3. employees
+employee_id (PK)
+name
+department_id (FK)
+job_title_id (FK)
+salary
+hire_date
+
+The schema follows normalization principles and enforces foreign key constraints to ensure data integrity.
+
+##🛠️ SQL Skills Demonstrated
+INNER JOIN & LEFT JOIN
+GROUP BY & Aggregate Functions
+Subqueries
+Common Table Expressions (CTEs)
+Window Functions (ROW_NUMBER, RANK, LAG)
+Running totals & analytical calculations
+Business-focused problem solving
+
+##📈 Business Questions Answered
+What is the complete employee profile including department and job role?
+How many employees work in each department?
+What is the average salary per department?
+Who are the highest-paid employees in each department?
+Which employees earn above their department’s average salary?
+How are employees ranked by salary within departments?
+How does salary progress as job seniority increases?
 
 ## 📁 Project Structure
 schema/ → table creation
