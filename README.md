@@ -6,7 +6,9 @@ This project analyzes employee and department data to generate meaningful HR and
 It focuses on salary distribution, hiring trends, workforce structure, and compensation analysis using advanced SQL techniques.
 
 🗂️ Database Schema
+
 📁 Tables Used
+
 departments
 
 department_id (PK)
